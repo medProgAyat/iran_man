@@ -124,7 +124,10 @@ class DialogueTree:
 # ------------------- مثال استفاده -------------------
 if __name__ == "__main__":
     # وضعیت بازی (برای شرط‌ها و callbackها)
-    game_state = {"gold": 0, "has_sword": False,"has_carpet": False,
+    game_state = {
+        "gold": 0, 
+        "has_sword": False,
+        "has_carpet": False,
         "tasted_sweet": False,
         "heard_music": False,
         "visited_mosque": False,
@@ -512,8 +515,8 @@ if __name__ == "__main__":
             speaker="سیستم",
             text="کدام یک از شهر ها را ابتدا می بینید",
             choices=[
-                Choice("azarbaijan_sharghi",callback=azarbaijan_shargi),
-                Choice("azarbaijan_gharbi",callback=azarbaijan_gharbi)
+                Choice("آذربایجان شرقی",callback=azarbaijan_shargi),
+                Choice("آذربایجان",callback=azarbaijan_gharbi)
             ]
         )
     }
