@@ -1,10 +1,10 @@
 # پروژه ایران صدا
 
 ## الان node ها رو به کجا اضافه کنیم؟
-به فایل Dialogue.py از پوشه components
+به فایل Dialog.py از پوشه components
 برای تست اش هم :
 ```bash
-python components/Dialogue.py
+python components/Dialog.py
 ```
 ---
 
